@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
 </head>
 
 <body class="blue">
@@ -37,23 +36,18 @@
                 </ul>
             </div>
         </div>
-    </nav>    
-    
+    </nav>
 
     <div class="container white">
         <div class="row">
             <div class="col-sm-12 col-lg-8">
                 <h1>
-                    <font face="Cursive">Summary: Latitude vs. X</font>
+                    <font face="Cursive">Humidity</font>
                 </h1>
                 <hr>
-                <img class="left" src="plots/City Latitude vs Max Temperature.png" alt="latitude vs temperature" style="width:150px;height:150px;border:0;"> 
+                <img src="plots/City Latitude vs Cloudiness.png" alt="latitude vs cloudiness">
                 <p>
-                    The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemmmble a dataset on over 500 cities.
-                </p>
-                <br>
-                <p>
-                    After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                    As we can see from the plot, the data is randomly distributed. There are many cities in different latitude that reach 0% cloudiness.
                 </p>
             </div>
             <div class="col-sm-12 col-lg-4">
@@ -63,22 +57,24 @@
                 <hr>
                 <div class="row">
                     <div class="col-sm-3 col-lg-6">
-                        <a target="_blank" href="plots/City Latitude vs Max Temperature.png">
-                            <img src="plots/City Latitude vs Max Temperature.png" alt="latitude vs temperature" style="width:150px;height:150px;border:0;">
+                        <a href="plots/City Latitude vs Max Temperature.png">
+                                <img src="plots/City Latitude vs Max Temperature.png" alt="latitude vs temperature" style="width:150px;height:150px;border:0px;">
                         </a>
                     </div>
                     <div class="col-sm-3 col-lg-6">
-                        <a target="_blank" href="plots/City Latitude vs Humidity.png">
-                            <img src="plots/City Latitude vs Humidity.png" alt="latitude vs humidity" style="width:150px;height:150px;border:0;">
+                        <a href="plots/City Latitude vs Humidity.png">
+                            <img src="plots/City Latitude vs Humidity.png" alt="latitude vs humidity" style="width:150px;height:150px;border:0;">                      
                         </a>
                     </div>
                     <div class="col-sm-3 col-lg-6">
-                            <a target="_blank" href="plots/City Latitude vs Cloudiness.png">
+                        <span class="border border-primary">
+                            <a href="plots/City Latitude vs Cloudiness.png">
                                 <img src="plots/City Latitude vs Cloudiness.png" alt="latitude vs cloudiness" style="width:150px;height:150px;border:0;">
                             </a>
+                        </span>
                     </div>
                     <div class="col-sm-3 col-lg-6">
-                        <a target="_blank" href="plots/City Latitude vs Wind Speed.png">
+                        <a href="plots/City Latitude vs Wind Speed.png">
                             <img src="plots/City Latitude vs Wind Speed.png" alt="latitude vs windspeed" style="width:150px;height:150px;border:0;">
                         </a>
                     </div>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Visualization Dashboard</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body class="blue">
+    <nav class="navbar fixed-top navbar-expand-lg white">
+        <div class="container-fluid">
+            <a class="navbar-brand wide" href="index.html"><font face="Cursive">Latitude</font></a>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="temperature.html">latitude vs temperature</a></li>
+                            <li><a class="dropdown-item" href="humidity.html">latitude vs humidity</a></li>
+                            <li><a class="dropdown-item" href="cloudiness.html">latitude vs cloudiness</a></li>
+                            <li><a class="dropdown-item" href="wind.html">latitude vs wind speed</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="comparison.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container white">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <h1>
+                    <font face="Cursive">Comparison: Latitude vs. X</font>
+                </h1>
+                <hr>
+                <p class="left">
+                    Click any plot to get an in-depth analysis.
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <h1>
+                    <font face="Times" size="5" color=#5343e6>vs. Max Temperature</font>
+                </h1>
+                <a target="_blank" href="temperature.html">
+                    <img src="plots/City Latitude vs Max Temperature.png" alt="latitude vs temperature" >
+                </a>
+            </div>                    
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <h1>
+                    <font face="Times" size="5" color=#5343e6>vs. Humidity</font>
+                </h1>
+                <a target="_blank" href="humidity.html">
+                    <img src="plots/City Latitude vs Humidity.png" alt="latitude vs humidity">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <h1>
+                    <font face="Times" size="5" color=#5343e6>vs. Cloudiness</font>
+                </h1>
+                <a target="_blank" href="cloudiness.html">
+                    <img src="plots/City Latitude vs Cloudiness.png" alt="latitude vs cloudiness">
+                </a>
+            </div>
+            <div class="col-sm-3 col-md-6 col-lg-6">
+                <h1>
+                    <font face="Times" size="5  " color=#5343e6>vs. Wind Speed</font>
+                </h1>
+                <a target="_blank" href="wind.html">
+                    <img src="plots/City Latitude vs Wind Speed.png" alt="latitude vs windspeed">
+                </a>
+            </div>
+        </div>
+    </div>
+                
+        
+
+</body>
+</html>

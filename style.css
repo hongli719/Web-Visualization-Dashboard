@@ -1,0 +1,46 @@
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+
+        .navbar-collapse.collapse {
+            display: none !important;
+        }
+
+    .navbar-nav {
+        float: none;
+        margin: 7.5px -15px;
+    }
+
+}
+
+.wide {
+    font-size: 40px;
+    background-color: #1da7ac;
+    color: #ffffff;
+}
+
+nav li {
+    margin: 0px 20px;
+}
+
+.blue {
+    background: #c7c3ee;
+}
+
+.white {
+    background: #ffffff;
+}
+
+.left {
+    float: left;
+}
+
+
+
