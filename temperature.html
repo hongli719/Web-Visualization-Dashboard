@@ -8,33 +8,31 @@
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body class="blue">
     <nav class="navbar fixed-top navbar-expand-lg white">
-        <div class="container-fluid">
-            <a class="navbar-brand wide" href="index.html"><font face="Cursive">Latitude</font></a>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown">
-                        <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="temperature.html">latitude vs temperature</a></li>
-                            <li><a class="dropdown-item" href="humidity.html">latitude vs humidity</a></li>
-                            <li><a class="dropdown-item" href="cloudiness.html">latitude vs cloudiness</a></li>
-                            <li><a class="dropdown-item" href="wind.html">latitude vs wind speed</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a href="comparison.html">Comparison</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="data.html">Data</a>
-                    </li>
-                </ul>
-            </div>
+        <a class="navbar-brand wide" href="index.html"><font face="Cursive">Latitude</font></a>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plot
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="temperature.html">latitude vs temperature</a>
+                        <a class="dropdown-item" href="humidity.html">latitude vs humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">latitude vs cloudiness</a>
+                        <a class="dropdown-item" href="wind.html">latitude vs wind speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a href="data.html">Data</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
@@ -47,7 +45,7 @@
                 <hr>
                 <img src="plots/City Latitude vs Max Temperature.png" alt="latitude vs temperature">
                 <p>
-                    As expected, the weather becomes significantly warmer as one approaches the equator, which is 0 degree latitude.                
+                    As expected, the weather becomes significantly warmer as one approaches the equator.                
                 </p>
             </div>
             <div class="col-sm-12 col-lg-4">
@@ -57,24 +55,24 @@
                 <hr>
                 <div class="row">
                     <div class="col-sm-3 col-lg-6">
-                        <a href="plots/City Latitude vs Max Temperature.png">
+                        <a target="_blank" href="plots/City Latitude vs Max Temperature.png">
                             <span class="border border-primary">
-                                <img src="plots/City Latitude vs Max Temperature.png" alt="latitude vs temperature" style="width:150px;height:150px;border:0px;">
+                                <img class="border" src="plots/City Latitude vs Max Temperature.png" alt="latitude vs temperature" style="width:150px;height:150px;border:0px;">
                             </span>
                         </a>
                     </div>
                     <div class="col-sm-3 col-lg-6">
-                        <a href="plots/City Latitude vs Humidity.png">
+                        <a target="_blank" href="plots/City Latitude vs Humidity.png">
                             <img src="plots/City Latitude vs Humidity.png" alt="latitude vs humidity" style="width:150px;height:150px;border:0;">
                         </a>
                     </div>
                     <div class="col-sm-3 col-lg-6">
-                        <a href="plots/City Latitude vs Cloudiness.png">
-                            <img src="plots/City Latitude vs Cloudiness.png" alt="latitude vs cloudiness" style="width:150px;height:150px;border:0;">
-                        </a>
+                            <a target="_blank" href="plots/City Latitude vs Cloudiness.png">
+                                <img src="plots/City Latitude vs Cloudiness.png" alt="latitude vs cloudiness" style="width:150px;height:150px;border:0;">
+                            </a>
                     </div>
                     <div class="col-sm-3 col-lg-6">
-                        <a href="plots/City Latitude vs Wind Speed.png">
+                        <a target="_blank" href="plots/City Latitude vs Wind Speed.png">
                             <img src="plots/City Latitude vs Wind Speed.png" alt="latitude vs windspeed" style="width:150px;height:150px;border:0;">
                         </a>
                     </div>
